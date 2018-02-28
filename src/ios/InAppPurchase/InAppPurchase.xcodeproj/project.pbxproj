@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0A86E551E70A36700677A81 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A86E541E70A36700677A81 /* libCordova.a */; };
+		D0A86E571E70A3BD00677A81 /* InAppPurchasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A86E3D1E70A28900677A81 /* InAppPurchasePlugin.m */; };
+		D0A86E5C1E70A41B00677A81 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A86E581E70A41B00677A81 /* CoreFoundation.framework */; };
+		D0A86E5D1E70A41B00677A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A86E591E70A41B00677A81 /* Foundation.framework */; };
+		D0A86E5E1E70A41B00677A81 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A86E5A1E70A41B00677A81 /* StoreKit.framework */; };
+		D0A86E5F1E70A41B00677A81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A86E5B1E70A41B00677A81 /* UIKit.framework */; };
+		D0A86E621E70D27600677A81 /* InAppPurchasePluginPaymentQueueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A86E611E70D27600677A81 /* InAppPurchasePluginPaymentQueueObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0A86E471E70A33000677A81 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0A86E3C1E70A28900677A81 /* InAppPurchasePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppPurchasePlugin.h; sourceTree = "<group>"; };
+		D0A86E3D1E70A28900677A81 /* InAppPurchasePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppPurchasePlugin.m; sourceTree = "<group>"; };
+		D0A86E3F1E70A28900677A81 /* plugin.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = plugin.xml; path = "/Users/worked/Developer/RosterBot/cordova-plugins/InAppPurchase/src/ios/../../plugin.xml"; sourceTree = "<absolute>"; };
+		D0A86E401E70A28900677A81 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = "/Users/worked/Developer/RosterBot/cordova-plugins/InAppPurchase/src/ios/../../www"; sourceTree = "<absolute>"; };
+		D0A86E491E70A33000677A81 /* libInAppPurchase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInAppPurchase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A86E541E70A36700677A81 /* libCordova.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCordova.a; path = "../../../../../../../macports/lib/node_modules/cordova-ios/CordovaLib/build/Debug-iphoneos/libCordova.a"; sourceTree = "<group>"; };
+		D0A86E581E70A41B00677A81 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0A86E591E70A41B00677A81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0A86E5A1E70A41B00677A81 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0A86E5B1E70A41B00677A81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D0A86E601E70D27600677A81 /* InAppPurchasePluginPaymentQueueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchasePluginPaymentQueueObserver.h; sourceTree = "<group>"; };
+		D0A86E611E70D27600677A81 /* InAppPurchasePluginPaymentQueueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchasePluginPaymentQueueObserver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0A86E461E70A33000677A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A86E5C1E70A41B00677A81 /* CoreFoundation.framework in Frameworks */,
+				D0A86E5D1E70A41B00677A81 /* Foundation.framework in Frameworks */,
+				D0A86E5E1E70A41B00677A81 /* StoreKit.framework in Frameworks */,
+				D0A86E5F1E70A41B00677A81 /* UIKit.framework in Frameworks */,
+				D0A86E551E70A36700677A81 /* libCordova.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0A86E351E70A27B00677A81 = {
+			isa = PBXGroup;
+			children = (
+				D0A86E3E1E70A28900677A81 /* src */,
+				D0A86E3F1E70A28900677A81 /* plugin.xml */,
+				D0A86E401E70A28900677A81 /* www */,
+				D0A86E4A1E70A33000677A81 /* Products */,
+				D0A86E531E70A36600677A81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A86E3E1E70A28900677A81 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D0A86E3C1E70A28900677A81 /* InAppPurchasePlugin.h */,
+				D0A86E3D1E70A28900677A81 /* InAppPurchasePlugin.m */,
+				D0A86E601E70D27600677A81 /* InAppPurchasePluginPaymentQueueObserver.h */,
+				D0A86E611E70D27600677A81 /* InAppPurchasePluginPaymentQueueObserver.m */,
+			);
+			name = src;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D0A86E4A1E70A33000677A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A86E491E70A33000677A81 /* libInAppPurchase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0A86E531E70A36600677A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A86E581E70A41B00677A81 /* CoreFoundation.framework */,
+				D0A86E591E70A41B00677A81 /* Foundation.framework */,
+				D0A86E5A1E70A41B00677A81 /* StoreKit.framework */,
+				D0A86E5B1E70A41B00677A81 /* UIKit.framework */,
+				D0A86E541E70A36700677A81 /* libCordova.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0A86E481E70A33000677A81 /* InAppPurchase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A86E501E70A33100677A81 /* Build configuration list for PBXNativeTarget "InAppPurchase" */;
+			buildPhases = (
+				D0A86E451E70A33000677A81 /* Sources */,
+				D0A86E461E70A33000677A81 /* Frameworks */,
+				D0A86E471E70A33000677A81 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InAppPurchase;
+			productName = InAppPurchase;
+			productReference = D0A86E491E70A33000677A81 /* libInAppPurchase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0A86E361E70A27B00677A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					D0A86E481E70A33000677A81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59U9URBTCZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0A86E391E70A27B00677A81 /* Build configuration list for PBXProject "InAppPurchase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0A86E351E70A27B00677A81;
+			productRefGroup = D0A86E4A1E70A33000677A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0A86E481E70A33000677A81 /* InAppPurchase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0A86E451E70A33000677A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A86E571E70A3BD00677A81 /* InAppPurchasePlugin.m in Sources */,
+				D0A86E621E70D27600677A81 /* InAppPurchasePluginPaymentQueueObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0A86E3A1E70A27B00677A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D0A86E3B1E70A27B00677A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		D0A86E511E70A33100677A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 59U9URBTCZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D0A86E521E70A33100677A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 59U9URBTCZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0A86E391E70A27B00677A81 /* Build configuration list for PBXProject "InAppPurchase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A86E3A1E70A27B00677A81 /* Debug */,
+				D0A86E3B1E70A27B00677A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A86E501E70A33100677A81 /* Build configuration list for PBXNativeTarget "InAppPurchase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A86E511E70A33100677A81 /* Debug */,
+				D0A86E521E70A33100677A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0A86E361E70A27B00677A81 /* Project object */;
+}

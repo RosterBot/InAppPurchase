@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.rosterbot.cordova.in-app-purchase"
+    version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>
+        InAppPurchase
+    </name>
+
+    <js-module name="InAppPurchase" src="www/InAppPurchase.js">
+        <clobbers target="InAppPurchase">
+        </clobbers>
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="InAppPurchase">
+                <param name="ios-package" value="InAppPurchasePlugin" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/InAppPurchasePlugin.h" />
+        <source-file src="src/ios/InAppPurchasePlugin.m" />
+
+        <header-file src="src/ios/InAppPurchasePluginPaymentQueueObserver.h" />
+        <source-file src="src/ios/InAppPurchasePluginPaymentQueueObserver.m" />
+
+    </platform>
+    
+</plugin>

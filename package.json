@@ -1,0 +1,20 @@
+{
+  "name": "InAppPurchase",
+  "version": "1.0.0",
+  "description": "A Cordova plugin to use the in app purchase features of iOS and Android",
+  "cordova": {
+    "id": "com.rosterbot.cordova.in-app-purchase",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Ed Epstein",
+  "license": "proprietary",
+  "dependencies": {
+    "cordova-ios": "^4.3.1"
+  }
+}
